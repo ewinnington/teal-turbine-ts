@@ -1,8 +1,8 @@
 import * as Amqp from "amqp-ts";
 
-var connection = new Amqp.Connection("amqp://localhost");
+var connection = new Amqp.Connection("amqp://guest:guest@localhost:5672/");
 var exchange = connection.declareExchange("ExchangeName");
-var queue = connection.declareQueue("QueueName");
+var queue = connection.declareQueue("hello", {durable: false});
 queue.bind(exchange);
 queue.activateConsumer((message) => {
     console.log("Message received: " + message.getContent());
