@@ -1,5 +1,5 @@
 import redis from "redis";
-const client = redis.createClient({"host":"localhost", "port":7001});
+const client = redis.createClient({"host":"localhost", "port":6379});
 
 client.on("error", function(error) {
   console.error(error);

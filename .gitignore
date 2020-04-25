@@ -1,0 +1,4 @@
+cli-redis/dist/
+cli-redis/node_modules/
+cli-rabbitmq/dist/
+cli-rabbitmq/node_modules/
