@@ -28,9 +28,18 @@ node dist/main.js
 
 # Postgresql 
 
+https://github.com/malthe/ts-postgres
 
+npm init
+npm install ts-postgres@latest
 
+npm i node
+npm i @types/node
 
 # Rabbitmq 
+
+npm i amqp-ts
+
+
 
 # REST Api Server and Client
