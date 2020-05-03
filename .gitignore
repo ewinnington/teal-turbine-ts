@@ -4,3 +4,7 @@ cli-rabbitmq/dist/
 cli-rabbitmq/node_modules/
 cli-sql-db-pg/dist/
 cli-sql-db-pg/node_modules/
+ts-client-rest/dist/
+ts-client-rest/node_modules/
+ts-serve-rest/dist/
+ts-serve-rest/node_modules/

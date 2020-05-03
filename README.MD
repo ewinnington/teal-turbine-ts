@@ -43,3 +43,15 @@ npm i amqp-ts
 
 
 # REST Api Server and Client
+
+## Client
+
+npm init
+npm install typed-rest-client --save
+npm i node
+npm i @types/node
+
+Remember to configure the tsconfig.json for the settings to compile. 
+
+tsc
+node dist/main.js
