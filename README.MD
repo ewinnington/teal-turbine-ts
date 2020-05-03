@@ -44,6 +44,18 @@ npm i amqp-ts
 
 # REST Api Server and Client
 
+## Server
+
+Reference
+https://medium.com/@pankaj.itdeveloper/getting-started-using-typescript-with-node-js-and-express-6aff573667d5
+
+npm install typescript
+npm install express @types/express --save
+
+
+npm run tsc
+node dist/main.js
+
 ## Client
 
 npm init
