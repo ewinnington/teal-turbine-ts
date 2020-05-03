@@ -49,6 +49,8 @@ npm i amqp-ts
 Reference
 https://medium.com/@pankaj.itdeveloper/getting-started-using-typescript-with-node-js-and-express-6aff573667d5
 
+http://www.cross-platform-blog.com/nodejs/typescript/nodejs-a-rest-web-api-expressjs-with-typescript/
+
 npm install typescript
 npm install express @types/express --save
 
