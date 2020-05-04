@@ -53,7 +53,7 @@ http://www.cross-platform-blog.com/nodejs/typescript/nodejs-a-rest-web-api-expre
 
 npm install typescript
 npm install express @types/express --save
-
+npm install body-parser multer --save 
 
 npm run tsc
 node dist/main.js
